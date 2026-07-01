@@ -1,0 +1,12 @@
+{
+  "name": "shallot-sandbox",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run ../dev.ts sandbox",
+    "build": "bun run ../build.ts sandbox"
+  },
+  "dependencies": {
+    "@dylanebert/shallot": "workspace:*"
+  }
+}
